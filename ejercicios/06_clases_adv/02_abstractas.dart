@@ -1,4 +1,3 @@
-import '01_extends.dart';
 
 abstract class Vehiculo{
   bool encendido = false;
@@ -19,7 +18,7 @@ abstract class Vehiculo{
 class Carro extends Vehiculo
 {
   int kilometraje = 0;
-  
+
   @override
   bool revisarMotor() {
     print('Motor OK!');
